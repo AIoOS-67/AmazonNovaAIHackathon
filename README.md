@@ -1,123 +1,60 @@
 # EmergencyAI 029
 
-EmergencyAI 029 is an Amazon Nova-powered emergency companion for seniors and cognitively vulnerable adults. It detects confusion early, responds with calm voice guidance, and escalates safely through authority-gated identity disclosure and trusted emergency workflows.
+EmergencyAI 029 is an Amazon Nova-powered emergency trust protocol for vulnerable individuals. It is designed for the silent gap before a visible crisis: when a senior is disoriented, a child is separated, a disabled user cannot communicate clearly, a crash victim is unconscious, or an anti-abduction event requires help without broad exposure.
 
-## Why It Matters
+Instead of opening a live inbound session or revealing a full identity profile, 029 shifts into protected emergency mode, broadcasts a one-way beacon, verifies responder authority, and discloses only the minimum information needed for that responder role.
 
-Most senior safety tools react after a crisis has already escalated.
+Live site: [https://aioos-67.github.io/AmazonNovaAIHackathon/](https://aioos-67.github.io/AmazonNovaAIHackathon/)
 
-EmergencyAI 029 focuses on the missing middle:
+Demo video: [https://youtu.be/k-fRJgINd4k](https://youtu.be/k-fRJgINd4k)
 
-- detect confusion before panic becomes danger
-- calm the user through voice-first reassurance
-- disclose only the minimum necessary information
-- connect caregivers and responders through verified emergency workflows
+## Positioning
 
-## What Makes It Different
+EmergencyAI 029 is not a generic chatbot, passive SOS wearable, or elder-only assistant.
 
-EmergencyAI 029 is not a generic chatbot and not a passive SOS wearable.
+It is an emergency identity disclosure protocol that combines:
 
-It is an emergency trust agent designed for moments when a vulnerable user:
+- protected one-way beaconing
+- authority verification before disclosure
+- minimal and purpose-bound disclosure
+- role-specific emergency payloads
+- downstream workflow automation after verified escalation
 
-- becomes disoriented outdoors
-- forgets how to return home
-- cannot clearly explain identity or medical needs
-- needs calm support before formal emergency escalation
+## What the Patent Covers
 
-## Powered by Amazon Nova
+- Authority-gated emergency identity disclosure
+- Non-connective emergency broadcasting with no inbound session
+- Role-specific minimal disclosure to verified public service agents
+- Offline-friendly emergency operation
+- Local auditability and controlled emergency logging
 
-The system combines four Amazon Nova capabilities in one workflow:
+## Why Amazon Nova
 
-- **Amazon Nova 2 Sonic** for natural spoken interaction and reassurance
-- **Amazon Nova 2 Lite** for reasoning, risk assessment, and escalation decisions
-- **Amazon Nova multimodal embeddings** for understanding IDs, medication labels, care plans, family context, and emergency documents
-- **Amazon Nova Act** for UI automation across caregiver portals, appointment systems, and support workflows
+The project uses Amazon Nova as a coherent operating model instead of isolated model calls:
 
-## Core Workflow
+- `Nova 2 Sonic`
+  Voice reassurance, low-cognitive-load guidance, and real-time spoken interaction
+- `Nova 2 Lite`
+  Risk evaluation, mode shifts, disclosure policy selection, and escalation logic
+- `Nova Multimodal Embeddings`
+  Retrieval of IDs, care plans, medication context, memory anchors, and emergency documents
+- `Nova Act`
+  Execution of caregiver notifications, public-service workflows, follow-up actions, and recovery flows
 
-### 1. Daily Companion Mode
+## Core Flow
 
-Supports reminders, appointments, routine check-ins, and family contacts.
+1. Daily mode stays private and discloses nothing.
+2. Emergency mode activates from risk signals or trusted confirmation.
+3. A protected beacon is broadcast without accepting inbound communication.
+4. A responder agent must prove authority and jurisdiction.
+5. The engine releases only the minimum payload needed for that role.
+6. Nova Act executes downstream caregiver or institutional workflows.
 
-### 2. Confusion Detection
+## Deployment Scope
 
-Recognizes early signals such as:
-
-- repeated route loops
-- missed return windows
-- uncertain voice responses
-- wandering or unusual stops
-- elevated stress patterns in speech or behavior context
-
-### 3. Calm Voice Reorientation
-
-Instead of saying "You are lost," the system uses supportive language such as:
-
-> You are safe. I am with you. Let us go step by step.
-
-### 4. Emergency Trust Mode
-
-If risk continues, EmergencyAI 029 can:
-
-- notify approved caregivers
-- verify responder authority before disclosure
-- share only the right identity and medical context
-- log emergency actions for audit and trust review
-
-### 5. Public Service Workflow Automation
-
-Using Nova Act, the system can automate real tasks such as:
-
-- opening caregiver portals
-- sending emergency summaries
-- scheduling follow-up help
-- navigating service forms and support websites
-
-## Architecture
-
-### Input Layer
-
-- voice conversation
-- caregiver profile
-- emergency contacts
-- medical notes
-- IDs, labels, care documents, and memory anchors
-
-### Reasoning Layer
-
-Amazon Nova 2 Lite assesses whether the user is in normal, confusion, or emergency mode and selects the next action.
-
-### Voice Layer
-
-Amazon Nova 2 Sonic provides real-time speech interaction, reassurance, and low-cognitive-load prompts.
-
-### Multimodal Context Layer
-
-Amazon Nova multimodal embeddings retrieve medication details, care preferences, emergency documents, and familiar context.
-
-### Action Layer
-
-Amazon Nova Act automates caregiver notifications, support workflows, and portal interactions.
-
-## Demo
-
-- YouTube: https://youtu.be/k-fRJgINd4k
-- Devpost: https://devpost.com/software/avos-ai-voice-ordering-system
-
-## Hackathon Category
-
-Primary category: **Voice AI**
-
-Also fits:
-
-- Agentic AI
-- Multimodal Understanding
-- UI Automation
-
-## Team
-
-Built by **AIoOS-67 / FoodyePay Technology, Inc.** for the **Amazon Nova AI Hackathon 2026**.
-
-## Vision
-
-EmergencyAI 029 turns Amazon Nova into a real-world emergency companion that protects dignity, reduces panic, and helps vulnerable users get the right help at the right time.
+- Senior disorientation
+- Disability and accessibility emergencies
+- Child safety and separation events
+- Vehicle crash response
+- Anti-abduction and coercion scenarios
+- Broader public-safety workflows

@@ -629,6 +629,31 @@ h3 {
   gap: 18px;
 }
 
+.closeout-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.closeout-card {
+  padding: 24px;
+}
+
+.closeout-card h3 {
+  margin: 14px 0 14px;
+}
+
+.closeout-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.closeout-list strong {
+  color: var(--navy);
+}
+
 .architecture-card {
   position: relative;
   overflow: hidden;
@@ -731,6 +756,7 @@ h3 {
   .scenario-grid,
   .scenario-switcher-wrap,
   .architecture-grid,
+  .closeout-grid,
   .timeline {
     grid-template-columns: 1fr;
   }
