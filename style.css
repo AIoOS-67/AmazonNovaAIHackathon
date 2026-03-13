@@ -140,6 +140,35 @@ body::before {
   margin-bottom: 18px;
 }
 
+.filing-badge {
+  display: inline-grid;
+  gap: 6px;
+  padding: 14px 16px;
+  margin: 0 0 18px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid rgba(24, 34, 47, 0.08);
+  box-shadow: 0 16px 36px rgba(24, 34, 47, 0.08);
+}
+
+.filing-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  color: var(--blue);
+}
+
+.filing-badge strong {
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.filing-badge span:last-child {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 h1,
 h2,
 h3 {
@@ -321,6 +350,7 @@ h3 {
 }
 
 .intro-grid,
+.filing-grid,
 .media-grid,
 .product-grid,
 .experience-grid,
@@ -629,6 +659,24 @@ h3 {
   gap: 18px;
 }
 
+.filing-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.filing-card {
+  padding: 24px;
+}
+
+.filing-card h3 {
+  margin: 14px 0 12px;
+}
+
+.filing-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
 .closeout-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -755,6 +803,7 @@ h3 {
   .disclosure-grid,
   .scenario-grid,
   .scenario-switcher-wrap,
+  .filing-grid,
   .architecture-grid,
   .closeout-grid,
   .timeline {

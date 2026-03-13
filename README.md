@@ -4,6 +4,16 @@ EmergencyAI 029 is an Amazon Nova-powered emergency trust protocol for vulnerabl
 
 Instead of opening a live inbound session or revealing a full identity profile, 029 shifts into protected emergency mode, broadcasts a one-way beacon, verifies responder authority, and discloses only the minimum information needed for that responder role.
 
+## USPTO Status
+
+The provisional application is now filed with the USPTO.
+
+- Application Number: `64/005,128`
+- Patent Center Number: `74854597`
+- Confirmation Number: `1005`
+- Received: `March 13, 2026 at 4:57:14 PM ET`
+- Filed By: `Ken Liao`
+
 Live site: [https://aioos-67.github.io/AmazonNovaAIHackathon/](https://aioos-67.github.io/AmazonNovaAIHackathon/)
 
 Demo video: [https://youtu.be/k-fRJgINd4k](https://youtu.be/k-fRJgINd4k)
