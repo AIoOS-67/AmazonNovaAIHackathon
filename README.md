@@ -12,9 +12,7 @@ The provisional application is now filed with the USPTO.
 - Patent Center Number: `74854597`
 - Confirmation Number: `1005`
 - Received: `March 13, 2026 at 4:57:14 PM ET`
-- Filed By: `Ken Liao`
 - Customer Number: `218453`
-- Filing Fee Paid: `$65.00` (`Fee Code 3005`, Provisional Application Filing Fee)
 
 Live site: [https://aioos-67.github.io/AmazonNovaAIHackathon/](https://aioos-67.github.io/AmazonNovaAIHackathon/)
 

@@ -1,4 +1,4 @@
-# EmergencyAI 029 USPTO Filing Record
+﻿# EmergencyAI 029 USPTO Filing Record
 
 ## Filing Status
 
@@ -12,7 +12,6 @@ EmergencyAI 029 has been filed as a U.S. provisional patent application.
 - Received: `03/13/2026 4:57:14 PM ET`
 - Application Type: `Utility-Provisional Application under 35 USC 111(b)`
 - First Named Inventor: `Mr. Ken Liao`
-- Filed By: `Ken Liao`
 - Customer Number: `218453`
 - Correspondence Address on Receipt: `-`
 
