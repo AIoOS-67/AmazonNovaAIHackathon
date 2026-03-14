@@ -1,4 +1,4 @@
-# EmergencyAI 029
+﻿# EmergencyAI 029
 
 EmergencyAI 029 is an Amazon Nova-powered emergency trust protocol for vulnerable individuals. It is designed for the silent gap before a visible crisis: when a senior is disoriented, a child is separated, a disabled user cannot communicate clearly, a crash victim is unconscious, or an anti-abduction event requires help without broad exposure.
 
@@ -70,3 +70,18 @@ The project uses Amazon Nova as a coherent operating model instead of isolated m
 - Vehicle crash response
 - Anti-abduction and coercion scenarios
 - Broader public-safety workflows
+
+## Advanced Architecture
+
+For the system-layer design behind EIA, failure handling, and low-power preservation logic, see:
+
+- [Advanced architecture notes](./docs/029-advanced-architecture-notes.md)
+
+This document covers:
+
+- `System-Level Guardian Agent`
+- `Emergency Signal Terminal`
+- `Low-Power Emergency Preservation Mode`
+- `Sudden Failure Anticipation Mode`
+- `Persistent Identity Shadow`
+- `Recovery and Audit Plane`

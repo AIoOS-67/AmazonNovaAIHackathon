@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --bg: #f4efe6;
   --bg-strong: #e8dbc6;
   --ink: #18222f;
@@ -258,6 +258,11 @@ h3 {
   background: rgba(255, 255, 255, 0.52);
 }
 
+.notes-link {
+  margin-top: 14px;
+  width: fit-content;
+}
+
 .hero-points {
   display: flex;
   flex-wrap: wrap;
@@ -355,7 +360,8 @@ h3 {
 .product-grid,
 .experience-grid,
 .disclosure-grid,
-.scenario-grid {
+.scenario-grid,
+.teaser-grid {
   display: grid;
   gap: 20px;
 }
@@ -376,6 +382,10 @@ h3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.teaser-grid {
+  grid-template-columns: 1fr;
+}
+
 .problem-card,
 .patent-card,
 .media-card,
@@ -385,7 +395,8 @@ h3 {
 .log-panel,
 .disclosure-card,
 .rules-card,
-.architecture-card {
+.architecture-card,
+.teaser-card {
   padding: 24px;
 }
 
@@ -397,6 +408,17 @@ h3 {
   padding-left: 18px;
   line-height: 1.8;
   color: var(--muted);
+}
+
+.teaser-card h3 {
+  margin: 14px 0 12px;
+}
+
+.teaser-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+  max-width: 70ch;
 }
 
 .media-card-head {
@@ -806,7 +828,8 @@ h3 {
   .filing-grid,
   .architecture-grid,
   .closeout-grid,
-  .timeline {
+  .timeline,
+  .teaser-grid {
     grid-template-columns: 1fr;
   }
 
@@ -835,7 +858,8 @@ h3 {
   .log-panel,
   .disclosure-card,
   .rules-card,
-  .architecture-card {
+  .architecture-card,
+  .teaser-card {
     padding: 20px;
   }
 }
