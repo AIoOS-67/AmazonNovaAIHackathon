@@ -12,7 +12,6 @@ The provisional application is now filed with the USPTO.
 - Patent Center Number: `74854597`
 - Confirmation Number: `1005`
 - Received: `March 13, 2026 at 4:57:14 PM ET`
-- Customer Number: `218453`
 
 Live site: [https://aioos-67.github.io/AmazonNovaAIHackathon/](https://aioos-67.github.io/AmazonNovaAIHackathon/)
 
